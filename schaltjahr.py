@@ -1,8 +1,8 @@
 # Programm zur Berechnung, 
 # ob ein bestimmtes Jahr ein Schaltjahr ist
 
-# Gibt True falls Schaltjahr
 def ist_schaltjahr( jahr ):
+    """Gibt True zurück falls jahr ein Schaltjahr ist."""
     if( jahr % 2 == 0 ):
         return True
     return False
