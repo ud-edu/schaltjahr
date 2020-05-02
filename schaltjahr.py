@@ -3,7 +3,7 @@
 
 def ist_schaltjahr( jahr ):
     """Gibt True zurück falls jahr ein Schaltjahr ist."""
-    if( jahr % 2 == 0 ):
+    if( jahr % 4 == 0 ):
         return True
     return False
 
